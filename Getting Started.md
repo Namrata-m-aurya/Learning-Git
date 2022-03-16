@@ -15,4 +15,16 @@ namrata@it002078:~/git/Learning-Git$ git commit -m "Getting started."
  create mode 100644 Getting Started.md
 namrata@it002078:~/git/Learning-Git$
 ####
+git fetch *****
+downloads new data from the remote and it does not integrate the new data in our files it has harmless nature. 
+
+git pull *******
+it downloads the new data to our local from the remote and integrates the data also there can be merge conflicts which can either be resolved automatically or manually. 
+
+After this i tried to pull and i was able to pull . (point to be noted it could be done fast forwarded. )
+
+git restore filename *****
+will discard the changes in the file. 
+
+
 
