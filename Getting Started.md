@@ -5,5 +5,14 @@ I will make changes in the local and merge those changes in my remote repo.
 the commands which i will use is.
 
 first add the files(in short the changes in local ) to staged changes and then commit with message. 
+
+namrata@it002078:~/git/Learning-Git$ git add Getting Started.md 
+fatal: pathspec 'Getting' did not match any files
+namrata@it002078:~/git/Learning-Git$ git add Getting\ Started.md 
+namrata@it002078:~/git/Learning-Git$ git commit -m "Getting started."
+[main 5ace448] Getting started.
+ 1 file changed, 9 insertions(+)
+ create mode 100644 Getting Started.md
+namrata@it002078:~/git/Learning-Git$
 ####
 
