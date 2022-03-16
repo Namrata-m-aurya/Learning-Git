@@ -27,4 +27,8 @@ git restore filename *****
 will discard the changes in the file. 
 
 
+to merge the main branch into your branch 
+git checkout branch1
+git merge main 
+
 
